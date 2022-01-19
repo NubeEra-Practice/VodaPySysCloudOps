@@ -10,3 +10,5 @@ r=requests.get(url)
 
 #Fetch Reponse Content
 print(r.content)
+print(r.status_code)
+print(r.url)
