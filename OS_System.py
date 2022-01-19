@@ -2,5 +2,6 @@
 import os
 
 #POSIX Commands
-cmd="date"
+cmd="notepad"
+# /bin/sh -c Command
 os.system(cmd)
