@@ -5,5 +5,15 @@ aws cloudformation ^
 
 
 aws cloudformation ^
+    create-stack ^
+        --stack-name stkcftcliv2mujahed ^
+        --template-body file://03.CreateEC2SGInput.json ^
+        --parameters ParameterKey=SGVarName,ParameterValue=sgcftcliv2httpallow
+
+
+
+
+
+aws cloudformation ^
     delete-stack ^
         --stack-name stkcftclimujahed
